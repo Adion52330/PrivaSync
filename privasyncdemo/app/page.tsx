@@ -331,8 +331,11 @@ export default function LandingEditorPage() {
           </Button>
           {/* FIX ? better to use other type of navigation insted of <a></a>  */}
           <Button variant="ghost" className="w-full justify-start gap-2 text-slate-500 h-9">
-            <a href="/user/training" className="text-sm">
+            
             <History className="w-4 h-4 shrink-0" />
+                   <a href="/user/training" className="text-sm">
+                    Training Logs
+                   </a>
             <span className="text-sm">Training Logs</span>
           </Button>
         </aside>
